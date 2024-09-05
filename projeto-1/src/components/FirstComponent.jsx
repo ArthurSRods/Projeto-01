@@ -4,7 +4,7 @@ const FirstComponent = () => {
   const nome = 'Arthur';
   const sobrenome = 'Rodrigues';
   return (
-    <div>Seu nome completo é {nome} {sobrenome}</div>
+    <div className='componente1'>Seu nome completo é {nome} {sobrenome}</div>
   );
 }
 
