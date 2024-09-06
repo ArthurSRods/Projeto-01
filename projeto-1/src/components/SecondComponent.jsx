@@ -37,7 +37,7 @@ const SecondComponent = () => {
     const alunosOrdenados = alunos.sort((a,b) => a.nome.localeCompare(b.nome));
 
   return (
-    <section className='lista_alunos'>
+    <section className='lista'>
     <div>
         <h1>Lista de Alunos</h1>
         <p>{alunosOrdenados.map((aluno)=>(
@@ -45,8 +45,7 @@ const SecondComponent = () => {
             Nome: {aluno.nome} {aluno.sobrenome}, Matricula: {aluno.matricula}
             </p>
         )
-        )}</p>
-        
+        )}</p>        
     </div>
     </section>
   )
