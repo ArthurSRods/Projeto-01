@@ -17,7 +17,7 @@ const FocusBlurExample = () => {
   };
 
   return (
-    <div className='lista'>
+    <div className='container'>
       <h2>React onFocus and onBlur Example</h2>
       <input
         className='campo'

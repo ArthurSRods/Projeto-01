@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import FirstComponent from './components/FirstComponent'
-import SecondComponent from './components/SecondComponent'
-import ThirdComponent from './components/ThirdComponent'
+import GerenciarAlunos from './components/GerenciarAlunos'
+import ListaProfessores from './components/ThirdComponent'
 import ParOuImpar from './components/ParOuImpar'
 import FocusBlurExample from './components/Blur'
 import './App.css'
@@ -11,11 +10,11 @@ function App() {
 
   return (
     <>
-      <FirstComponent/>
-      <SecondComponent/>
-      <ThirdComponent/>
+
+      <GerenciarAlunos/>
+      <ListaProfessores/>
       <ParOuImpar/>
-      <FocusBlurExample></FocusBlurExample>
+      <FocusBlurExample/>
     </>
   )
 }

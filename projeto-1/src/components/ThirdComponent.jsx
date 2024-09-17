@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ThirdComponent = () => {
+const ListaProfessores = () => {
     const professores = [
         {nome:'Luiz',
          sobrenome:'Farias',
@@ -21,7 +21,7 @@ const ThirdComponent = () => {
     
     const professoresOrdenados = professores.sort((a,b) => a.nome.localeCompare(b.nome));
   return (
-    <section className='lista'>
+    <section className='container'>
     <div>
         <h1>Lista de Professores</h1>
         <p>{professoresOrdenados.map((professor)=>(
@@ -34,6 +34,6 @@ const ThirdComponent = () => {
     </div>
     </section>
   )
-}
+};
 
-export default ThirdComponent
+export default ListaProfessores;
