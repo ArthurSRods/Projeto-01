@@ -3,6 +3,7 @@ import FirstComponent from './components/FirstComponent'
 import SecondComponent from './components/SecondComponent'
 import ThirdComponent from './components/ThirdComponent'
 import ParOuImpar from './components/ParOuImpar'
+import FocusBlurExample from './components/Blur'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SecondComponent/>
       <ThirdComponent/>
       <ParOuImpar/>
+      <FocusBlurExample></FocusBlurExample>
     </>
   )
 }
